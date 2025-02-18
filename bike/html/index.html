@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Policy</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</head>
+<body>
+    <div class="top-nav">
+        <a href="#">Help</a>
+        <i class="fas fa-user-circle"></i>
+    </div>
+    <div class="container">
+        <div class="left-section">
+            <div class="back-button">
+                <i class="fa-solid fa-chevron-left"></i>
+                <span>Back</span>
+            </div>
+            <div class="policy-card ">
+                <div class="policy-header">
+                    <div>
+                        <p class="policy-title">Third Party Plan</p>
+                        <h2>Royal Enfield Classic 350</h2>
+                        <div class="policy-info">
+                            <div>
+                                <p class="policy-title">Start date</p>
+                                <p>06 Mar 2024</p>
+                            </div>
+                            <div>
+                                <p class="policy-title">End date</p>
+                                <p>05 Mar 2025</p>
+                            </div>
+                            
+                        </div>
+                        <div class="policy-footer">
+                            <p class="policy-line">Policy Holder</p>
+                            
+                        </div>
+                    </div>
+                    <img class="m-1" src="https://placehold.co/100x100" alt="Motorcycle insurance icon">
+                </div>
+                <div class="button-group">
+                    <button><i class="fas fa-pencil-alt"></i> Edit</button> 
+                    <button><i class="fas fa-shield-alt"></i> Claims</button> 
+                    <button><i class="fas fa-download"></i> Download</button>
+                    <button><i class="fas fa-times-circle"></i> Cancel</button> 
+                    
+                </div>
+            </div>
+            <div class="expiry-warning">
+                <div class="icon-container">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </div>
+                <p>
+                    Your policy <br> <span>expiring on 5 Mar 2025</span>
+                </p>
+                <button>Renew</button>
+            </div>
+            
+            
+
+            <div class="bike-details">
+                <div class="tabs">
+                    <div class="tab active" onclick="showTab('overview')">Overview</div>
+                    <div class="tab" onclick="showTab('coverages')">Coverages</div>
+                </div>
+                
+                <h3>Bike details</h3>
+                <div>
+                    <div class="detail-item">
+                        <p>Bike number</p>
+                        <p>-</p>
+                    </div>
+                    <div class="detail-item">
+                        <p>Make / Model</p>
+                        <p>Royal Enfield Classic 350</p>
+                    </div>
+                    <div class="detail-item">
+                        <p>Fuel type</p>
+                        <p>Petrol</p>
+                    </div>
+                    <div class="detail-item">
+                        <p>Registration year</p>
+                        <p>2014</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-section">
+            <h2>Buy insurance</h2>
+            <div class="insurance-options">
+                <button>
+                    <img src="https://placehold.co/50x50" alt="Car icon">
+                    <span>Car</span>
+                </button>
+                <button>
+                    <img src="https://placehold.co/50x50" alt="Bike icon">
+                    <span>Bike</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
